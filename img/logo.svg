@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" width="400" height="420">
+  <!-- Белый фон -->
+  <rect width="400" height="420" fill="#ffffff"/>
+
+  <!-- ШЕСТЕРЁНКА (серая) -->
+  <g transform="translate(200, 170)">
+    <!-- 8 зубьев шестерёнки -->
+    <g fill="#9aa0a6">
+      <rect x="-14" y="-95" width="28" height="22" rx="3"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(45)"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(90)"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(135)"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(180)"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(225)"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(270)"/>
+      <rect x="-14" y="-95" width="28" height="22" rx="3" transform="rotate(315)"/>
+    </g>
+    <!-- Тело шестерёнки -->
+    <circle cx="0" cy="0" r="80" fill="#9aa0a6"/>
+    <!-- Внутренний вырез -->
+    <circle cx="0" cy="0" r="50" fill="#ffffff"/>
+  </g>
+
+  <!-- ГАЕЧНЫЙ КЛЮЧ (тёмно-синий, повёрнут) -->
+  <g transform="translate(200, 170) rotate(-45)">
+    <!-- Ручка ключа -->
+    <rect x="-12" y="-10" width="24" height="110" rx="4" fill="#1a3a6b"/>
+    <!-- Верхняя головка (C-образная, открытая) -->
+    <path d="M -28,-30 
+             L -28,-10 
+             A 28,28 0 1,0 28,-10 
+             L 28,-30 
+             L 16,-30 
+             L 16,-15 
+             A 16,16 0 1,1 -16,-15 
+             L -16,-30 Z" 
+          fill="#1a3a6b"/>
+  </g>
+
+  <!-- КРАСНЫЙ БОЛТ в центре -->
+  <g transform="translate(200, 170)">
+    <!-- Шестиугольник -->
+    <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="#c0392b"/>
+    <!-- Внутреннее отверстие -->
+    <circle cx="0" cy="0" r="6" fill="#ffffff"/>
+  </g>
+
+  <!-- НАДПИСЬ -->
+  <text x="200" y="330" 
+        text-anchor="middle" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-size="36" 
+        font-weight="bold" 
+        fill="#1a3a6b" 
+        letter-spacing="2">АВТО-АКСЕССУАРЫ</text>
+</svg>
